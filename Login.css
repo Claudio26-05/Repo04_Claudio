@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #faedcd;
+    display: flex;
+}
+/* --------------------------------------Formulario PRINCIPAL ---------------------------------------*/
+#plantilla{
+    background-color:#344e41;
+    width: 50%;
+    height: 100vh;
+}
+#Formulario_Login{
+    height: 480px;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+#t_form{
+    padding-left: 170px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color: beige;
+    text-shadow: 2px 4px 1px black;
+}
+#t_cuenta{
+    color: beige;
+    margin-left: 20px;
+}
+a{
+    margin-left: 20px;
+}
+input{
+    padding-left: 10px;
+    padding: 5px;
+    height: 40px;
+    margin: 20px;
+    width: 90%;
+    border: none;
+    border-left: 10px solid 003049;
+    background-color: rgba(238, 230, 230, 0.6);
+}
+label{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+/* --------------------------------------Formulario ---------------------------------------*/
+
+
+/* --------------------------------------Botones-- ---------------------------------------*/
+
+#Entrar{
+    margin: 20px;
+    height: 40px;
+    width: 91%;
+    border: none;
+    border-radius: 2px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: #588157;
+    color: #fdf0d5;
+    box-shadow: 0px 0px 10px #d0f4de;
+}
+#Registro{
+    margin: 20px;
+    height: 40px;
+    width: 91%;
+    border-radius: 2px;
+    border: 1px solid whitesmoke;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #fdf0d5;
+    
+}
+
+/* --------------------------------------Botones-- ---------------------------------------*/
+
+
+
+/* -------------------------------Funciones hover del Formulario-------------------------- */
+#Registro:hover{
+    cursor: pointer;
+    background-color: #a3b18a;
+    color: #344e41;
+}
+#Entrar:hover{
+    cursor: pointer;
+    background-color: #a3b18a;
+    color: #344e41;
+    box-shadow: 0px 0px 10px #d0f4de;
+}
+/* -------------------------------Funciones hover del Formulario(FIN)-------------------------- */
+
+
+
+/* ------------------------------------------Titulo------------------------------------------- */
+#t_bienvenida{
+    margin-top: 50%;
+    margin: auto;
+    font-size:50px;
+    font-family:sans-serif;
+    text-shadow: 3px 4px 1px gray;
+    color: #fcbf49;
+}
+/* ------------------------------------------FIN-Titulo------------------------------------------- */
+
+
+/* --------------------------------------Formulario SECUNDARIO ---------------------------------------*/
+#plantilla02{
+    background-color:#78290f;
+    width: 50%;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: none;
+}
+#Formulario_Login02{
+    height: 480px;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+#t_form02{
+    padding-left: 170px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color: beige;
+    text-shadow: 2px 4px 1px black;
+}
+#t_cuenta02{
+    color: beige;
+    margin-left: 20px;
+}
+
+
+
+/* --------------------------------------Formulario SECUNDARIO---------------------------------------*/
+
+/* --------------------------------------Botones-- ---------------------------------------*/
+
+#Entrar02{
+    margin: 20px;
+    height: 40px;
+    width: 91%;
+    border: none;
+    border-radius: 2px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: #ff7d00;
+    color: #fdf0d5;
+    box-shadow: 0px 0px 10px #d0f4de;
+}
+#Registro02{
+    margin: 20px;
+    height: 40px;
+    width: 91%;
+    border-radius: 2px;
+    border: 1px solid whitesmoke;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #fdf0d5;
+    
+}
+
+/* --------------------------------------Botones SECUNDARIOS-- ---------------------------------------*/
+
+
+
+/* -------------------------------Funciones hover del Formulario SECUNDARIO-------------------------- */
+#Registro02:hover{
+    cursor: pointer;
+    background-color: #ffecd1;
+    color: #78290f;
+}
+#Entrar02:hover{
+    cursor: pointer;
+    background-color: #ffecd1;
+    color: #78290f;
+    box-shadow: 0px 0px 10px #d0f4de;
+}
+/* -------------------------------Funciones hover del Formulario SECUNDARIO(FIN)-------------------------- */
+

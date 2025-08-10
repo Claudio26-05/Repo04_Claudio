@@ -27,7 +27,7 @@ function visible(e) {
     setTimeout(() => {
         formulario.style.display = "none";
         titulo.style.display = "none";
-        plantilla.innerHTML = `<h1 id="t_bienvenida">Nos alegra tenerte</h1>`;
+        plantilla.innerHTML += `<h1 id="t_bienvenida">Nos alegra tenerte</h1>`;
 
         // Ahora sí, hacer visible el segundo con animación
         plantilla02.style.transition = "opacity 0.5s ease";
